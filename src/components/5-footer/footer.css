@@ -1,0 +1,48 @@
+
+
+
+footer.flex{
+  text-align: center;
+ background-image: linear-gradient(-45deg, #05b169 0%, #0daa61 100%);
+ border: none;
+ outline: none;
+ height: 5px;
+ border-radius: 40px;
+ padding-top: 0.5rem;
+padding-bottom: 1.8rem;
+margin-top: 0.5rem;
+margin-bottom: 0.1rem;
+}
+
+footer.flex .mini{
+  display: none;
+  color: white;
+}
+
+
+footer.flex .max{
+  color: white;
+}
+
+
+
+
+@media (max-width: 600px) {
+
+  footer.flex{
+font-size: 16px;
+    }
+    footer.flex .mini{
+      display: block;
+      color: white;
+    }
+
+
+    footer.flex .max{
+      display: none;
+      color: white;
+    }
+
+
+
+}
